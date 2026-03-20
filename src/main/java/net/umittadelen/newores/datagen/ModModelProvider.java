@@ -19,6 +19,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.ETHERIUM_ORE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ETHERIUM_CRYSTAL, Models.GENERATED);
     }
 }
